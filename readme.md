@@ -19,7 +19,7 @@
 
 
 ## Before starting to learn
-- [ ] Master a programming language (python)
-- [ ] Learn to write testcases
+- [x] Master a programming language (python)
+- [x] Learn to write testcases
 
 ## Resources
