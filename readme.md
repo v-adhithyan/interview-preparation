@@ -17,6 +17,15 @@
 - [ ] Updating portfolio site
 - [ ] Create a resume as an android app
 
+## Algorithms
+- [ ] Dynamic programming
+- [ ] Sorting (quick sort, merge sort, variations)
+- [ ] Time complexity, Big O notation
+
+## Data structures
+- [ ] Linked list (Insertion, deletion, middle element etc)
+- [ ] Trees (binary trees, bst) tries, BFS, DFS, traversals
+- [ ] Graphs (adjacency list, adjacency matrix, bfs, dfs, djikstra, A*)
 
 ## Before starting to learn
 - [x] Master a programming language (python)
