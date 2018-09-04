@@ -32,3 +32,20 @@
 - [x] Learn to write testcases
 
 ## Resources
+- [ ] Time complexity
+  - [ ] https://en.wikipedia.org/wiki/Time_complexity#Table_of_common_time_complexities
+  - [ ] Big O Cheat Sheet http://www.bigocheatsheet.com
+  - [ ] Python time complexity - https://wiki.python.org/moin/TimeComplexity
+  
+## DIY in language of your choice
+- Data structures
+  - [ ] Vector
+  - [ ] Linked list
+  - [ ] Stack
+  - [ ] Queue
+  - [ ] Circular Queue
+  - [ ] Hashmap
+  - [ ] Set
+  - [ ] Priority Queue
+  - [ ] Binary Search Tree
+## Resources
