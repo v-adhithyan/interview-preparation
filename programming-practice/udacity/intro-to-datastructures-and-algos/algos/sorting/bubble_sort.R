@@ -2,7 +2,7 @@
 
 sleep <- function() {
   current_time <- Sys.time()
-  while(as.numeric(Sys.time()) - as.numeric(current_time) < 0.5) {}
+  while(as.numeric(Sys.time()) - as.numeric(current_time) < 0.2) {}
 }
 
 bubble_sort <- function(input) {
@@ -13,7 +13,7 @@ bubble_sort <- function(input) {
         temp <- input[i]
         input[i] <- input[j]
         input[j] <- temp
-        barplot(input)
+        barplot(input, main="Bubble Sort Visualization")
       }
       j = j + 1
       sleep()
@@ -23,7 +23,11 @@ bubble_sort <- function(input) {
 
 main <- function() {
   input <- c(10, 4, 3, 5, 1, 7, 6, 2, 8, 9)
-  barplot(input)
+  
+  
+  input <- c(10, 9, 8, 7, 6, 5, 4, 3, 2, 1)
+  #input <- round(runif(10,1,100), 0)
+  barplot(input, main="Bubble Sort Visualization")
   bubble_sort(input)
 }
 
