@@ -1,3 +1,4 @@
+"""My own implementation of set interface inspired from Java."""
 from abc import ABC, abstractmethod
 
 
