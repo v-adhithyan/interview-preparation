@@ -2,7 +2,7 @@ from .set import Set
 
 
 class HashSet(Set):
-
+    # Collisions are not handled.
     def __hashcode(self, key=None) -> int:
         if not key:
             return 0
@@ -39,28 +39,59 @@ class HashSet(Set):
         if self.size() == self.threshold:
             self.__rehash()
 
+        if self.contains(key):
+            return True
+        
         index = self.__index(key)
-        self.table[index] = key
+        
+        if self.table[index] is None:
+            self.table[index] = key
+        else:
+            if type(self.table[index]) is not list:  # chaining didn't happen
+                self.table[index] = [self.table[index], key]
+            else:
+                self.table[index] = self.table[index].append(key)
+
         self.count += 1
+        
         return True
 
     def remove(self, key) -> bool:
-        if self.count == 0:
+        if self.count == 0 or not self.contains(key):
             return False
 
         index = self.__index(key)
         value = self.table[index]
-        if value and value == key:
+        if value is not None and type(value) is not list:
             self.table[index] = None
             self.count -= 1
             return True
+        
+        for i, val in enumerate(value):
+            if val == key:
+                del value[i]
+                self.count -= 1
+                
+                if len(value) == 0:
+                    value = None
 
+                self.table[index] = value
+                return True
+    
         return False
 
     def contains(self, key) -> bool:
         index = self.__index(key)
         value = self.table[index]
-        return value is not None and value == key
+        if value is not None:
+            if type(value) is not list:
+                return value == key
+            else:
+                for v in value:
+                    if v == key:
+                        return True
+        
+        return False
 
     def clear(self) -> bool:
         self.count = 0
