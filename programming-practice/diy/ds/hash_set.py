@@ -97,7 +97,7 @@ class HashSet(Set):
                 self.count -= 1
 
                 if len(values) == 0:
-                    values = None
+                    values = []
 
                 self.table[index] = values
                 return True
