@@ -10,7 +10,7 @@ class Set(ABC):
         self.load_factor = load_factor
         self.threshold = self.initial_capacity * self.load_factor
         self.mod_count = 0
-        self.table = [None] * self.initial_capacity
+        self.table = [[]] * self.initial_capacity
         
         super().__init__()
         
