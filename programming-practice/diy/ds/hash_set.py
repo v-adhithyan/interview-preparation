@@ -5,6 +5,8 @@ from .set import Set
 class HashSet(Set):
     """Class HashSet."""
 
+    MAX_CAPACITY = 0x7FFFFFFF
+
     def __hashcode(self, key=None) -> int:
         """Get hashcode of the key."""
         if not key:
@@ -33,7 +35,7 @@ class HashSet(Set):
         """
         old_table = self.table
         self.mod_count += 1
-        new_size = len(old_table) << self.mod_count
+        new_size = min(len(old_table) << self.mod_count, self.MAX_CAPACITY)
         new_table = [[]] * new_size
 
         for val in old_table:
@@ -65,7 +67,9 @@ class HashSet(Set):
         If there is an entry at the current index, create a list and append the
         key to it. Otherwise set the key at the index
         """
+        print("add -> {}".format(self.size()))
         if self.size() == self.threshold:
+            print("rehash")
             self.__rehash()
 
         if self.contains(key):

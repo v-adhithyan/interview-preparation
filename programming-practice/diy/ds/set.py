@@ -45,5 +45,6 @@ class Set(ABC):
         pass
     
     def __repr__(self):
-        values = [v for v in self.table if v is not None]
-        return str(values)
+        v = []
+        [v.extend(values) for values in self.table if len(values) > 0]
+        return str(v)

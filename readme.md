@@ -11,15 +11,19 @@
 - [ ] DBMS concepts
 - [ ] Basic networking concepts
 - [ ] Scalability (http://highscalability.com/all-time-favorites/)
+- [ ] System design
+- [ ] Concurrency in practice (Read java concurrency in practice book)
 
 ## Things to do
-- [ ] Updating resume
+- [x] Updating resume
 - [ ] Updating portfolio site
 - [ ] Create a resume as an android app
 
 ## Algorithms
 - [ ] Dynamic programming
-- [ ] Sorting (quick sort, merge sort, variations)
+- [ ] Sorting 
+  - [ ] quick sort, 
+  - [x] merge sort
 - [ ] Time complexity, Big O notation
 
 ## Data structures
@@ -48,4 +52,9 @@
   - [ ] Set
   - [ ] Priority Queue
   - [ ] Binary Search Tree
+  - [ ] Heap
+  
 ## Resources
+  - Python resources / Hacks
+    - https://hackernoon.com/python-tricks-101-2836251922e0
+    - https://medium.freecodecamp.org/an-a-z-of-useful-python-tricks-b467524ee747
