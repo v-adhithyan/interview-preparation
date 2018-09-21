@@ -58,3 +58,4 @@
   - Python resources / Hacks
     - https://hackernoon.com/python-tricks-101-2836251922e0
     - https://medium.freecodecamp.org/an-a-z-of-useful-python-tricks-b467524ee747
+    - [Python Cheatsheet](cheat-sheets/python-cheatsheet.md)
