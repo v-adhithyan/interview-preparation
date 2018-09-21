@@ -3,7 +3,7 @@ from .set import Set
 
 
 class HashSet(Set):
-    """Class HashSet."""
+    """Implementation of hashset."""
 
     MAX_CAPACITY = 0x7FFFFFFF
 
@@ -21,7 +21,7 @@ class HashSet(Set):
         return hash
 
     def __rehash(self):
-        """Increase the table size if the threshold is reached.
+        """Resize the table if the threshold is reached.
 
         mod_count  variable will contain the count of number of times
         the table is resized. Initially it will be 0 and our default initial
@@ -112,10 +112,10 @@ class HashSet(Set):
         """Check if the key is present in the set."""
         index = self.__index(key)
         values = self.table[index]
-        
+
         if values is None:
             return False
-        
+
         for v in values:
             if v == key:
                 return True

@@ -6,13 +6,17 @@
 - [ ] Algorithms
 - [ ] Data structures
 - [ ] Study every interview related github repository
-- [ ] Oops
+- [ ] OOPS
 - [ ] OS fundamentals
 - [ ] DBMS concepts
 - [ ] Basic networking concepts
 - [ ] Scalability (http://highscalability.com/all-time-favorites/)
 - [ ] System design
+- [ ] Design patterns
 - [ ] Concurrency in practice (Read java concurrency in practice book)
+- [ ] Memory management in Java
+- [ ] Memory management in python.
+- [ ] Architecting things
 
 ## Things to do
 - [x] Updating resume
@@ -21,6 +25,8 @@
 
 ## Algorithms
 - [ ] Dynamic programming
+- [ ] Greedy
+- [ ] Divide and conquer
 - [ ] Sorting 
   - [ ] quick sort, 
   - [x] merge sort
@@ -34,12 +40,18 @@
 ## Before starting to learn
 - [x] Master a programming language (python)
 - [x] Learn to write testcases
+- [ ] Learn to use a debugger and break points
 
 ## Resources
-- [ ] Time complexity
+- Time complexity
   - [ ] https://en.wikipedia.org/wiki/Time_complexity#Table_of_common_time_complexities
   - [ ] Big O Cheat Sheet http://www.bigocheatsheet.com
   - [ ] Python time complexity - https://wiki.python.org/moin/TimeComplexity
+- Python resources / Hacks
+    - https://hackernoon.com/python-tricks-101-2836251922e0
+    - https://medium.freecodecamp.org/an-a-z-of-useful-python-tricks-b467524ee747
+    - [Python Cheatsheet](extras/cheat-sheets/python-cheatsheet.md)
+
   
 ## DIY in language of your choice
 - Data structures
@@ -48,14 +60,8 @@
   - [ ] Stack
   - [ ] Queue
   - [ ] Circular Queue
-  - [ ] Hashmap
-  - [ ] Set
+  - [x] [Hashset](programming-practice/diy/ds/hash_set.py)
+  - [x] [Set](programming-practice/diy/ds/set.py)
   - [ ] Priority Queue
   - [ ] Binary Search Tree
   - [ ] Heap
-  
-## Resources
-  - Python resources / Hacks
-    - https://hackernoon.com/python-tricks-101-2836251922e0
-    - https://medium.freecodecamp.org/an-a-z-of-useful-python-tricks-b467524ee747
-    - [Python Cheatsheet](cheat-sheets/python-cheatsheet.md)
