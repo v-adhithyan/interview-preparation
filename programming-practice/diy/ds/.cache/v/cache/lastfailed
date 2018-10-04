@@ -1,1 +1,3 @@
-{}
+{
+  "test_hashset.py::test_rehash": true
+}

@@ -93,6 +93,7 @@ def test_rehash():
     ten_entries = [i for i in range(10)]
     thirteen_entries = [i for i in range(13)]
     twenty_five_entries = [i for i in range(26)]
+    more_entries = [i for i in range(100)]
     
     h.add_all(ten_entries)
     assert h.size() == len(ten_entries)
@@ -111,6 +112,7 @@ def test_rehash():
     h.add_all(twenty_five_entries)
     assert h.size() == len(twenty_five_entries)
     assert len(h.table) == 32 << 2
+    
 
 def test_add_after_remove():
     # make sure you are able to add to same bucket after removing

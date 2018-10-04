@@ -36,13 +36,15 @@ class HashSet(Set):
         old_table = self.table
         self.mod_count += 1
         new_size = min(len(old_table) << self.mod_count, self.MAX_CAPACITY)
-        new_table = [[]] * new_size
+        new_table = [None] * new_size
 
         for val in old_table:
             if not val:
                 continue
             hash = self.__hashcode(val)
             new_index = (hash & 0x7FFFFFFF) % new_size
+            if not new_table[new_index]:
+                new_table[new_index] = []
             new_table[new_index].append(val)
 
         self.threshold = new_size * self.load_factor
@@ -76,6 +78,10 @@ class HashSet(Set):
             return True
 
         index = self.__index(key)
+
+        if not self.table[index]:
+            self.table[index] = []
+
         self.table[index].append(key)
 
         self.count += 1
@@ -126,7 +132,7 @@ class HashSet(Set):
         """Set the size to zero and replace all values of table with none."""
         self.count = 0
         size = len(self.table)
-        self.table = [[]] * size
+        self.table = [None] * size
         return True
 
     def add_all(self, keys) -> bool:
