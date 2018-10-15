@@ -1,6 +1,6 @@
 """My own implementation of set interface inspired from Java."""
 from abc import ABC, abstractmethod
-
+import ctypes
 
 class Set(ABC):
 
@@ -10,9 +10,12 @@ class Set(ABC):
         self.load_factor = load_factor
         self.threshold = self.initial_capacity * self.load_factor
         self.mod_count = 0
-        self.table = [[]] * self.initial_capacity
+        self.table = [None] * self.initial_capacity
         
         super().__init__()
+    
+    def __len__(self):
+        return self.count
         
     def size(self) -> int:
         return self.count
@@ -46,5 +49,5 @@ class Set(ABC):
     
     def __repr__(self):
         v = []
-        [v.extend(values) for values in self.table if len(values) > 0]
+        [v.extend(values) for values in self.table if values and len(values) > 0]
         return str(v)

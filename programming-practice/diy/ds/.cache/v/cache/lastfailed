@@ -1,3 +1,3 @@
 {
-  "test_hashset.py::test_rehash": true
+  "test_hashset.py::test_add_after_clear": true
 }

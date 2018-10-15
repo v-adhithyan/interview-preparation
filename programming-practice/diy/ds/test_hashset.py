@@ -112,7 +112,8 @@ def test_rehash():
     h.add_all(twenty_five_entries)
     assert h.size() == len(twenty_five_entries)
     assert len(h.table) == 32 << 2
-    
+    print(str(more_entries))
+
 
 def test_add_after_remove():
     # make sure you are able to add to same bucket after removing
@@ -138,4 +139,3 @@ def test_add_after_clear():
     h.add_all(keys)
     for i in keys:
         assert h.contains(i) == True
-    

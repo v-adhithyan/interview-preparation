@@ -69,9 +69,7 @@ class HashSet(Set):
         If there is an entry at the current index, create a list and append the
         key to it. Otherwise set the key at the index
         """
-        print("add -> {}".format(self.size()))
         if self.size() == self.threshold:
-            print("rehash")
             self.__rehash()
 
         if self.contains(key):
@@ -113,6 +111,10 @@ class HashSet(Set):
                 return True
 
         return False
+
+    def __getitem__(self, k):
+        """Use array notation to check presence of element in set."""
+        return self.contains(k)
 
     def contains(self, key) -> bool:
         """Check if the key is present in the set."""

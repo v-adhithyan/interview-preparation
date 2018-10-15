@@ -40,6 +40,15 @@
 - sys
 - time
 
+## array (compact arrays)
+
+  - Similar to list in Python. Sample usage
+  ```primes = array('i', [2, 3, 5, 7])```
+  
+  - The first argument represents the type of array, whether it is int or char etc.
+  
+  - The array module does not provide support for making compact arrays of user- defined data types. Compact arrays of such structures can be created with the lower- level support of a module named ctypes. (See Section 5.3.1 for more discussion of the ctypes module.)
+ 
 ## metaclass
 
 -  A metaclass is different from a superclass, in that it provides a template for the class definition itself. Specifically, the ABCMeta declaration (from abc module) assures that the constructor for the class raises an error.
