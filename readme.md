@@ -51,6 +51,7 @@
     - https://hackernoon.com/python-tricks-101-2836251922e0
     - https://medium.freecodecamp.org/an-a-z-of-useful-python-tricks-b467524ee747
     - [Python Cheatsheet](extras/cheat-sheets/python-cheatsheet.md)
+    - [Python module of the week](https://pymotw.com/3/)
 
   
 ## DIY in language of your choice
