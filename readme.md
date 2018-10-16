@@ -1,4 +1,4 @@
-# Interview preperation
+# Interview preperation [![Build Status](https://travis-ci.com/v-adhithyan/interview-preparation.svg?branch=master)](https://travis-ci.com/v-adhithyan/interview-preparation)
 
 ## Things to learn
 - [ ] Cracking the coding interview book
