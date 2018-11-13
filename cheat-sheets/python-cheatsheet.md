@@ -121,3 +121,7 @@ latest_frameworks = copy.deepcopy(frameworks)
 - https://www.slideshare.net/nnja/memory-management-in-python-the-basics
 - https://www.slideshare.net/jmgimeno/objectoriented-programming-in-python
 - https://www.slideshare.net/MattHarrison4/learn-90
+
+## python static method vs classmethod
+
+- https://www.programiz.com/python-programming/methods/built-in/classmethod
