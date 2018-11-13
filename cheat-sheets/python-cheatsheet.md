@@ -125,3 +125,4 @@ latest_frameworks = copy.deepcopy(frameworks)
 ## python static method vs classmethod
 
 - https://www.programiz.com/python-programming/methods/built-in/classmethod
+- https://www.geeksforgeeks.org/class-method-vs-static-method-python/
