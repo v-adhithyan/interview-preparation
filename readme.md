@@ -66,3 +66,11 @@
   - [ ] Priority Queue
   - [ ] Binary Search Tree
   - [ ] Heap
+  
+ ## Articles to read
+ 
+ - https://medium.freecodecamp.org/the-most-important-things-you-need-to-know-for-a-programming-interview-3429ac2454b
+ 
+ ## License
+ 
+ - MIT
