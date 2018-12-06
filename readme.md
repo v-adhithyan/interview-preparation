@@ -52,6 +52,7 @@
     - https://medium.freecodecamp.org/an-a-z-of-useful-python-tricks-b467524ee747
     - [Python Cheatsheet](extras/cheat-sheets/python-cheatsheet.md)
     - [Python module of the week](https://pymotw.com/3/)
+    - [Some wtf python features](https://github.com/satwikkansal/wtfpython)
 
   
 ## DIY in language of your choice
