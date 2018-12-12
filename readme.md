@@ -14,8 +14,7 @@
 - [ ] System design
 - [ ] Design patterns
 - [ ] Concurrency in practice (Read java concurrency in practice book)
-- [ ] Memory management in Java
-- [ ] Memory management in python.
+- [x] Memory management in python. <https://www.nnja.io/video/memory-management/>
 - [ ] Architecting things
 
 ## Things to do
