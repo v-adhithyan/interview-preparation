@@ -13,7 +13,7 @@
 - [ ] Scalability (http://highscalability.com/all-time-favorites/)
 - [ ] System design
 - [ ] Design patterns
-- [ ] Concurrency in practice (Read java concurrency in practice book)
+- [ ] Concurrency in practice (Read python concurrency)
 - [x] Memory management in python. <https://www.nnja.io/video/memory-management/>
 - [ ] Architecting things
 
@@ -29,7 +29,7 @@
 - [ ] Sorting 
   - [ ] quick sort, 
   - [x] merge sort
-- [ ] Time complexity, Big O notation
+- [x] Time complexity, Big O notation <http://bigocheatsheet.com/>
 
 ## Data structures
 - [x] Linked list (Insertion, deletion, middle element etc)
@@ -39,7 +39,7 @@
 ## Before starting to learn
 - [x] Master a programming language (python)
 - [x] Learn to write testcases
-- [ ] Learn to use a debugger and break points
+- [x] Learn to use a debugger and break points <https://pythonadventures.wordpress.com/tag/ipdb/>
 
 ## Resources
 - Time complexity
