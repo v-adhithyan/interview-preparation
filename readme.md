@@ -1,5 +1,7 @@
 # Interview preperation [![Build Status](https://travis-ci.com/v-adhithyan/interview-preparation.svg?branch=master)](https://travis-ci.com/v-adhithyan/interview-preparation)
 
+ - This is interview prep guide with main emphasis on python.
+ 
 ## Things to learn
 - [ ] Cracking the coding interview book
 - [ ] Android

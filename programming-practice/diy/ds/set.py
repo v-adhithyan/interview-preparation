@@ -2,6 +2,7 @@
 from abc import ABC, abstractmethod
 import ctypes
 
+
 class Set(ABC):
 
     def __init__(self, initial_capacity=16, load_factor=0.75):
@@ -11,12 +12,12 @@ class Set(ABC):
         self.threshold = self.initial_capacity * self.load_factor
         self.mod_count = 0
         self.table = [None] * self.initial_capacity
-        
+
         super().__init__()
-    
+
     def __len__(self):
         return self.count
-        
+
     def size(self) -> int:
         return self.count
 
@@ -46,8 +47,9 @@ class Set(ABC):
     @abstractmethod
     def remove_all(self, keys) -> bool:
         pass
-    
+
     def __repr__(self):
         v = []
-        [v.extend(values) for values in self.table if values and len(values) > 0]
+        [v.extend(values)
+         for values in self.table if values and len(values) > 0]
         return str(v)
