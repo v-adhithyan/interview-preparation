@@ -1,6 +1,6 @@
 # Strategy Pattern
 
-- It is a pattern where different algorithms or procedures can be used to complete a task where algorithm or procedure will be specified at runtime.
+- It is a pattern where different algorithms or procedures can be used to complete a same task. The algorithm or procedure will be specified at runtime.
 
 - Example: billing of drinks in a pub during normal hour and happy bours. The billing strategy can be passed at the runtime.
 

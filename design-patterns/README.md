@@ -11,9 +11,17 @@
 - Behavioral patterns
 	- concerned with interaction between objects.
 
+## Creational pattern
+	Python itself provides us with all the flexibility we need to create objects in a sufficiently elegant fashion; we rarely need to implement anything on top, like Singleton or Factory.
+
+- Command pattern
+- Singleton pattern
+- Factory pattern
+
 ## Behavioral patterns
 
 - Strategy pattern
+
 
 ## References
 
