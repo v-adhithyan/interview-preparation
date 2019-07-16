@@ -20,7 +20,7 @@
 
 ## Behavioral patterns
 
-- Strategy pattern
+- Strategy pattern {similar to factory pattern}
 
 
 ## References
