@@ -17,6 +17,10 @@
 - Singleton pattern
 - Factory pattern
 
+## Structural pattern
+
+- Facade pattern
+
 ## Behavioral patterns
 
 - Strategy pattern {similar to factory pattern}
