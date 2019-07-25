@@ -6,6 +6,7 @@
 - [ ] Cracking the coding interview book
 - [ ] Android
 - [ ] Algorithms
+  - [ ] sorting (https://stackabuse.com/sorting-algorithms-in-python/)
 - [ ] Data structures
 - [ ] Study every interview related github repository
 - [ ] OOPS
@@ -15,7 +16,12 @@
 - [ ] Scalability (http://highscalability.com/all-time-favorites/)
 - [ ] System design
 - [ ] Design patterns
-- [ ] Concurrency in practice (Read python concurrency)
+    - [ ] [strategy patterns](design-patterns/strategy-pattern.md)
+- [ ] Concurrency in practice (Read python concurrency) (Multithreading)
+    - [ ] Difference between multithreading and multiprocessing
+    - [ ] What is concurrent.Futures?
+    - [ ] Difference between Lock, Event, Condition, Semaphore, Bounded Semaphore
+    - [ ] asyncio
 - [x] Memory management in python. <https://www.nnja.io/video/memory-management/>
 - [ ] Architecting things
 
@@ -54,6 +60,7 @@
     - [Python Cheatsheet](extras/cheat-sheets/python-cheatsheet.md)
     - [Python module of the week](https://pymotw.com/3/)
     - [Some wtf python features](https://github.com/satwikkansal/wtfpython)
+    - [Pycoders Python weekly newsletter](https://pycoders.com)
 
   
 ## DIY in language of your choice
@@ -69,9 +76,10 @@
   - [ ] Binary Search Tree
   - [ ] Heap
   
- ## Articles to read
+ ## Some useful articles
  
  - https://medium.freecodecamp.org/the-most-important-things-you-need-to-know-for-a-programming-interview-3429ac2454b
+ - https://realpython.com/python-coding-interview-tips/
  
  ## License
  
