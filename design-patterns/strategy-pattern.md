@@ -1,6 +1,10 @@
-# Strategy Pattern
+# Strategy Pattern [Similar to factory pattern]
 
-- It is a pattern where different algorithms or procedures can be used to complete a task where algorithm or procedure will be specified at runtime.
+- It is a pattern where different algorithms or procedures can be used to complete a same task. The algorithm or procedure will be specified at runtime.
+
+- Induces loose coupling.
+
+- Factory Method Pattern allows the sub-classes to choose the type of objects to create.
 
 - Example: billing of drinks in a pub during normal hour and happy bours. The billing strategy can be passed at the runtime.
 
@@ -64,3 +68,4 @@ This limitation is the reason for patterns like abstract factory (which requires
 ## References
 
 - https://www.toptal.com/python/python-parameterized-design-patterns
+- https://www.javatpoint.com/factory-method-design-pattern
