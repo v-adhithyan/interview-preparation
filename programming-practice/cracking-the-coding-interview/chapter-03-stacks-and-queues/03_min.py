@@ -1,12 +1,12 @@
 class Stack(list):
-    min = -1
+    min_val = -1
 
-    def push(self, val:int ):
-        self.min = self.min if self.min < val else val
-        self.append(val)
+    def push(self, val):
+        self.min_val = min(val, self.min_val)
+        super().append(val)
 
     def min(self):
-        return self.min
+        return self.min_val
 
 
 def main():
@@ -16,7 +16,7 @@ def main():
     s.push(3)
     s.push(-5)
 
-    assert s.min() == -5
+    assert s.min() == -3
 
 
 if __name__ == '__main__':
