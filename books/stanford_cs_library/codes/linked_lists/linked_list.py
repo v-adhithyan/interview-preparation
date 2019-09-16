@@ -18,11 +18,14 @@ class node:
     def print_list(self):
         current = self
         while current is not None:
-            print current.data
+            print(current.data)
             current = current.next
 
     def size(self):
         return int(self._count)
+
+    def __len__(self):
+        return self._count
 
 
 def test():
@@ -33,4 +36,4 @@ def test():
 
     head.print_list()
 
-    print "the size of list is {}".format(head.size())
+    print("the size of list is {}".format(head.size()))

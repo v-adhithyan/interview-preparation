@@ -33,6 +33,7 @@ _opcodes = sequence_matcher.get_opcodes()
 output_word = ""
 steps = namedtuple(
     'steps', 'operation word1_start word1_end word2_start word2_end')
+import ipdb; ipdb.set_trace()
 for _opcode in _opcodes:
     current_step = steps(operation=_opcode[0], word1_start=_opcode[1],
                          word1_end=_opcode[2],

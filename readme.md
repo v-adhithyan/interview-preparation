@@ -81,6 +81,14 @@
  - https://medium.freecodecamp.org/the-most-important-things-you-need-to-know-for-a-programming-interview-3429ac2454b
  - https://realpython.com/python-coding-interview-tips/
  
+ ## Style guide python
+ 
+ - https://google.github.io/styleguide/pyguide.html
+ 
+ ## Google interview prep references
+ - http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
+ - https://www.mtu.edu/career/students/networking/interviews/prepare.pdf
+ 
  ## License
  
  - MIT

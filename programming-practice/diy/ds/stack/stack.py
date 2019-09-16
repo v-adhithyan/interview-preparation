@@ -1,26 +1,32 @@
+STACK_EMPTY = "Stack is empty"
 
-class Stack:
+
+class Empty(Exception):
+    pass
+
+
+class Stack(object):
     
     def __init__(self):
-        self.__stack = []
+        self._stack = []
     
     def push(self, val):
-        self.__stack.append(val)
+        self._stack.append(val)
     
     def __len__(self) -> int:
-        return len(self.__stack)
+        return len(self._stack)
     
     def is_empty(self) -> bool:
-        return len(self.__stack) == 0
+        return len(self._stack) == 0
     
     def top(self):
         if self.is_empty():
-            raise "Stack is empty"
+            raise Empty(STACK_EMPTY)
         
-        return self.__stack[-1]
+        return self._stack[-1]
     
     def pop(self):
         if self.is_empty():
-            raise "Stack is empty"
+            raise Empty(STACK_EMPTY)
         
-        return self.__stack.pop()
+        return self._stack.pop()
