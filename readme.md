@@ -32,6 +32,7 @@
 
 ## Algorithms
 - [ ] Dynamic programming
+    - https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html
 - [ ] Greedy
 - [ ] Divide and conquer
 - [ ] Sorting 
