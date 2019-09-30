@@ -56,9 +56,18 @@ class Graph:
             if not visited.get(edge):
                 self.dfs(edge, visited)
 
-    def topological_sort(self):
-        # DAG
-        pass
+    def topological_sort(self, start, visited, topological_order, n):
+        n = n + 1
+        visited[start] = True
+
+        for edge in self.graph[start]:
+            if not visited.get(edge):
+                n = self.topological_sort(edge, visited, topological_order, n)
+
+        print(f'{n} item -> {start}')
+        n -= 1
+
+        return n
 
     def __str__(self):
         return f'{self.graph}'
@@ -86,12 +95,25 @@ def construct_graph_2():
     return g
 
 
+def construct_graph_3():
+    g = Graph()
+    g.add('A', 'B')
+    g.add('A', 'C')
+    g.add('B', 'D')
+    g.add('C', 'D')
+    g.add('D', 'E')
+    return g
+
+
 def main():
-    graph = construct_graph()
+    graph_1 = construct_graph()
+    graph_1.bfs()
 
-    graph.bfs()
+    graph_2 = construct_graph_2()
+    graph_2.dfs(1, {})
 
-    construct_graph_2().dfs(1, {})
+    graph_3 = construct_graph_3()
+    graph_3.topological_sort('A', {}, {}, 0)
 
 
 if __name__ == '__main__':
