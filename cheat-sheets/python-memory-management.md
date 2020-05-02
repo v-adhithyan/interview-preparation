@@ -52,3 +52,4 @@ When reference count reaches 0, release memory. Sounds simple, actually not. It 
 - https://www.quora.com/How-does-garbage-collection-in-Python-work
 - https://pymotw.com/2/gc/
 - http://tech.oyster.com/save-ram-with-python-slots/
+- https://realpython.com/python-memory-management/
