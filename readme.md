@@ -17,6 +17,7 @@
 - [ ] System design
 - [ ] Design patterns
     - [ ] [strategy patterns](design-patterns/strategy-pattern.md)
+    - [ ] https://sourcemaking.com/design-patterns-and-tips
 - [ ] Concurrency in practice (Read python concurrency) (Multithreading)
     - [ ] Difference between multithreading and multiprocessing
     - [ ] What is concurrent.Futures?
