@@ -83,6 +83,7 @@
  - https://medium.freecodecamp.org/the-most-important-things-you-need-to-know-for-a-programming-interview-3429ac2454b
  - https://realpython.com/python-coding-interview-tips/
  - https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf
+ - https://www.youtube.com/c/HusseinNasser-software-engineering/videos 
  
  ## Style guide python
  
