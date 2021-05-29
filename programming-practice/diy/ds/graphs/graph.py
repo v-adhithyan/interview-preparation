@@ -1,8 +1,9 @@
 from collections import defaultdict
 
+
 # Todo: detect loop in a graph
 # Todo: Complete the remaining bare implementations here
-# Todo: Graph coloring problem
+# Todo: ShortestPathBFS coloring problem
 
 
 class Graph:
@@ -56,18 +57,16 @@ class Graph:
             if not visited.get(edge):
                 self.dfs(edge, visited)
 
-    def topological_sort(self, start, visited, topological_order, n):
-        n = n + 1
+    def topological_sort(self, start, visited, topological_order):
         visited[start] = True
 
         for edge in self.graph[start]:
             if not visited.get(edge):
-                n = self.topological_sort(edge, visited, topological_order, n)
+                topological_order = self.topological_sort(edge, visited, topological_order)
 
-        print(f'{n} item -> {start}')
-        n -= 1
+        topological_order.insert(0, start)
 
-        return n
+        return topological_order
 
     def __str__(self):
         return f'{self.graph}'
@@ -113,11 +112,8 @@ def main():
     graph_2.dfs(1, {})
 
     graph_3 = construct_graph_3()
-    graph_3.topological_sort('A', {}, {}, 0)
+    print(graph_3.topological_sort('A', {}, []))
 
 
 if __name__ == '__main__':
     main()
-
-
-

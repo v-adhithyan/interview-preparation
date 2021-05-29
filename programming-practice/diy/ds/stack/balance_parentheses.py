@@ -1,7 +1,8 @@
 from .stack import Stack
 
+
 class Parentheses:
-    
+
     def is_matched(self, expr):
         left = '({['
         right = ')}]'
@@ -14,5 +15,5 @@ class Parentheses:
                     return False
                 if right.index(c) != left.index(s.pop()):
                     return False
-        
+
         return s.is_empty()

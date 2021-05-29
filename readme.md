@@ -43,7 +43,7 @@
 ## Data structures
 - [x] Linked list (Insertion, deletion, middle element etc)
 - [ ] Trees (binary trees, bst) tries, BFS, DFS, traversals
-- [ ] Graphs (adjacency list, adjacency matrix, bfs, dfs, djikstra, A*)
+- [x] Graphs (adjacency list, adjacency matrix, bfs, dfs, djikstra, loop detection, minimum spanning tree)
 
 ## Before starting to learn
 - [x] Master a programming language (python)
@@ -53,7 +53,7 @@
 ## Resources
 - Time complexity
   - [ ] https://en.wikipedia.org/wiki/Time_complexity#Table_of_common_time_complexities
-  - [ ] Big O Cheat Sheet http://www.bigocheatsheet.com
+  - [x] Big O Cheat Sheet http://www.bigocheatsheet.com
   - [ ] Python time complexity - https://wiki.python.org/moin/TimeComplexity
 - Python resources / Hacks
     - https://hackernoon.com/python-tricks-101-2836251922e0
@@ -62,6 +62,7 @@
     - [Python module of the week](https://pymotw.com/3/)
     - [Some wtf python features](https://github.com/satwikkansal/wtfpython)
     - [Pycoders Python weekly newsletter](https://pycoders.com)
+    - [Python anti patterns](https://github.com/quantifiedcode/python-anti-patterns)
 
   
 ## DIY in language of your choice
@@ -81,6 +82,7 @@
  
  - https://medium.freecodecamp.org/the-most-important-things-you-need-to-know-for-a-programming-interview-3429ac2454b
  - https://realpython.com/python-coding-interview-tips/
+ - https://github.com/Olshansk/interview
  
  ## Style guide python
  
