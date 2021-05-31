@@ -41,6 +41,43 @@ class LoopDetection(Graph):
         return self.dfs(start, visited, stack)
 
 
+# DFS returns True if loop exists
+# Union Find can be used to find all nodes that form loop
+
+class UnionFindLoopDetection:
+    parents = {}
+
+    def __init__(self, x):
+        for i in range(x + 1):
+            self.parents[i] = i
+
+    def find(self, x):
+        while self.parents[x] != x:
+            self.parents[x] = self.parents[self.parents[x]]
+            x = self.parents[x]
+
+        return x
+
+    def union(self, a, b):
+        parent_a = self.find(a)
+        parent_b = self.find(b)
+
+        if parent_a != parent_b:
+            self.parents[parent_b] = parent_a
+            return True
+        else:
+            return False
+
+    def detect_loop(self, edges):
+        loops = []
+        for a, b in edges:
+            status = self.union(a, b)
+            if not status:
+                loops.append([a, b])
+
+        return loops
+
+
 if __name__ == '__main__':
     graph = LoopDetection()
     graph.add(0, 1)
@@ -51,3 +88,13 @@ if __name__ == '__main__':
     graph.add(3, 3)
 
     print(graph.has_loop(0))
+
+    uf = UnionFindLoopDetection(4)
+    print(uf.detect_loop([
+        [0, 1],
+        [0, 2],
+        [1, 2],
+        [2, 0],
+        [2, 3],
+        [3, 3]
+    ]))

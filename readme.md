@@ -36,7 +36,7 @@
 - [ ] Greedy
 - [ ] Divide and conquer
 - [ ] Sorting 
-  - [ ] quick sort, 
+  - [x] quick sort, 
   - [x] merge sort
 - [x] Time complexity, Big O notation <http://bigocheatsheet.com/>
 
