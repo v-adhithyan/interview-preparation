@@ -78,6 +78,20 @@
   - [ ] Binary Search Tree
   - [ ] Heap
   
+## Important python modules to learn for whiteboard
+- [ ] heapq
+- [ ] queue
+- [ ] functools
+- [ ] itertools
+- [ ] graphlib
+- [ ] zip
+- [ ] Counter
+- [ ] list
+- [ ] set
+- [ ] dict
+- [ ] sorted
+
+
  ## Some useful articles
  
  - https://medium.freecodecamp.org/the-most-important-things-you-need-to-know-for-a-programming-interview-3429ac2454b
