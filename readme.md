@@ -85,6 +85,7 @@
 - [ ] itertools
 - [ ] graphlib
 - [ ] zip
+- [ ] collections
 - [ ] Counter
 - [ ] list
 - [ ] set
