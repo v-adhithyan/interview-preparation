@@ -58,3 +58,8 @@ if __name__ == '__main__':
     s = Sort(a)
     s.sort()
     print(s.array)
+
+    a = [16, 12, 6, 8, 10, 9, 5, 15, 3]
+    s = Sort(a)
+    s.sort()
+    print(s.array)
