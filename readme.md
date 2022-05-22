@@ -17,6 +17,7 @@
 - [ ] System design
 - [ ] Design patterns
     - [ ] [strategy patterns](design-patterns/strategy-pattern.md)
+    - [ ] https://sourcemaking.com/design-patterns-and-tips
 - [ ] Concurrency in practice (Read python concurrency) (Multithreading)
     - [ ] Difference between multithreading and multiprocessing
     - [ ] What is concurrent.Futures?
@@ -78,11 +79,28 @@
   - [ ] Binary Search Tree
   - [ ] Heap
   
+## Important python modules to learn for whiteboard
+- [ ] heapq
+- [ ] queue
+- [ ] functools
+- [ ] itertools
+- [ ] graphlib
+- [ ] zip
+- [ ] collections
+- [ ] Counter
+- [ ] list
+- [ ] set
+- [ ] dict
+- [ ] sorted
+
+
  ## Some useful articles
  
  - https://medium.freecodecamp.org/the-most-important-things-you-need-to-know-for-a-programming-interview-3429ac2454b
  - https://realpython.com/python-coding-interview-tips/
  - https://github.com/Olshansk/interview
+ - https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf
+ - https://www.youtube.com/c/HusseinNasser-software-engineering/videos 
  
  ## Style guide python
  
