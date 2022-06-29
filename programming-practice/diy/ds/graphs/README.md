@@ -88,3 +88,11 @@ Trees are connected acyclic graphs. Directed Acyclic graphs (DAG) occurs in sche
 - DFS can be used to find out loops. We can keep of  track of vertices in recursion stack. If we reach a node that is already in recursion stack, then there is a cycle.
 
 ## Graph coloring notes
+
+
+## Important points to remember
+
+- Use dfs if every node is to be visited
+- Use bfs to find out the shortest path
+- Minimum spanning tree Kruskal - from the remaining nodes pick node that has smallest weight. if it does not  form the loop add to spanning tree. repeat this
+- Djikstra shortest  path - does not work for negative indexex - Pick a node with smallest weight. perform relexation. repeat
