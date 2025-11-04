@@ -100,7 +100,9 @@
  - https://realpython.com/python-coding-interview-tips/
  - https://github.com/Olshansk/interview
  - https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf
- - https://www.youtube.com/c/HusseinNasser-software-engineering/videos 
+ - https://www.youtube.com/c/HusseinNasser-software-engineering/videos
+ - DSA https://ripe-silk-ca8.notion.site/Prefix-Sum-25ffb2146916802c9fb9df8524244086?pvs=149
+ - System design https://systemdesignschool.io/
  
  ## Style guide python
  
