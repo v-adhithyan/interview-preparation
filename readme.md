@@ -103,6 +103,7 @@
  - https://www.youtube.com/c/HusseinNasser-software-engineering/videos
  - DSA https://ripe-silk-ca8.notion.site/Prefix-Sum-25ffb2146916802c9fb9df8524244086?pvs=149
  - System design https://systemdesignschool.io/
+ - Frontend developer articles https://www.reddit.com/r/reactjs/comments/1jcdwb9/react_must_knows_for_interview_next_week_l4/
  
  ## Style guide python
  
